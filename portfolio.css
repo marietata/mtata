@@ -1,0 +1,122 @@
+* { box-sizing: border-box; }
+body { background-color: #eeeeee;
+       font-family: Monospace, Arial, sans-serif; }
+#wrapper { margin: 0 auto;
+           width: 80%;
+           min-width: 960px; max-width: 1200px;
+           background-color: #FFFFFF;
+           color: #808080; 
+}	   
+header { background-color: #FFFFFF;
+         color: #808080;
+}
+nav { float: left;
+      width: 200px;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+}
+nav ul { list-style-type: none; margin: 0; padding: 0; text-align: center;}
+nav a { text-decoration: none;
+        text-align: center;
+		padding: 20px;
+        display: block;
+        background-color: #bcbec0;
+        border-bottom: 1px solid #FFFFFF; 
+}
+nav a:link { color: #FFF; }
+nav a:visited { color: #EAEAEA;}
+nav a:hover { color: #bcbec0;
+              background-color: #EAEAEA; }
+main { text-align:center;
+	   background-color: #FFFFFF;
+       color: #808080;
+       padding: 10px 10px;
+       overflow: auto; 
+       display: block; 
+}
+footer { font-size: 80%;
+         text-align: center;
+         padding: 30px;
+		 color:#808080;
+        background-color: #FFFFFF;
+         clear: both;
+}
+h3{ text-align:center;
+}	
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 450px;
+  box-shadow:2px 2px 2px;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+img {width: 100%;
+}
+
+.sidebar {
+	height: 200px;
+	width: 150px;
+	padding-left:2em;
+	padding-top:2em;
+}
+form { display: flex;
+         flex-direction: column;
+         padding-left: 1em; width: 300px; 
+		 text-align:left;
+}
+
+.formbox {
+  width : 40%;
+  padding: 50px;
+  margin: 20px;
+  clear: both;
+  position:relative;
+  left:360px;
+}
+@media (max-width: 768px) {
+.sidebar {width: 100%;
+			text-align: left;
+	}	
+header	{	height: 200px;				
+			margin-left:7em;
+}
+
+#wrapper {	width:65%;
+			min-width: 500px;
+}
+h3	{ 	font-size: 100%;
+		text-align: center;
+}
+	nav { width: 90%;
+		text-align: center;
+		padding-left: 0px;
+}
+main { width: 100%;
+		text-align: center;
+}
+footer	{	
+			text-align: center;
+			
+}
+
+form { width: 100%;
+		      
+			  
+}
+label { text-align: left; }
+
+.formbox {position:relative;
+          left:0;
+		  width: 100%;
+}
+	
+
+}
